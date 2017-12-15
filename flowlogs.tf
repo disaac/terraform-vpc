@@ -1,4 +1,4 @@
-resource "aws_cloudwatch_log_group" "vpc_cloudwatch_flowlog_group" {
+resource "aws_cloudwatch_log_group" "vpc_cloudwatch_group" {
     name = "${var.vpc_name}-vpcflowlogs"
 }
 
