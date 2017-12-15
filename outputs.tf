@@ -55,7 +55,7 @@ output "public_subnets_str" {
 }
 
 output "internet_gateway_id" {
-  value = "${aws_internet_gateway.internet_gateway.id}"
+  value = "${aws_internet_gateway.internet_gateway.*.id}"
 }
 
 output "public_route_table_ids" {
