@@ -7,7 +7,7 @@ A terraform module to provide a VPC in AWS.
 Module Input Variables
 ----------------------
 
-- `region` - the aws region in which to build the resources (Default: eu-west-1)
+- `aws_region` - the aws region in which to build the resources (Default: eu-west-1)
 - `vpc_name` - the name of the vpc and the name to be used on all the resources created by the module (required)
 - `vpc_cidr_block` - the CIDR block for the VPC (required)
 - `automatic_networking` - enable or disable automatic networking (automatic creation of public/private subnets)
